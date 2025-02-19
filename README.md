@@ -17,3 +17,5 @@ Upon first inspection of the data, we can tell that there are 426880 rows of dat
 Some values were also unrealistic. These would be considered extreme outliers and must be removed. Null values must also be filled in with either correlative data or the most common option available. Some columns, such as ID, VIN, and region, may be dropped completely due to their unique value or due to its insignificance in a sale.
 
 ### Interpreting the Data 
+The price of a car generally depends on the model year. The newer the car and the lower the odometer readings, you'll often find a higher price for the vehicle. When you consider more features and add them to the equation, the prediction of the vehicle price will become more difficult to determine. 
+
