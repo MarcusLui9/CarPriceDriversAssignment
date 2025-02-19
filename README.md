@@ -11,7 +11,9 @@ To frame the task, throughout our practical applications, we will refer back to 
 From a business perspective, we are tasked with identifying key drivers for used car prices.  In the CRISP-DM overview, we are asked to convert this business framing to a data problem definition.  Using a few sentences, reframe the task as a data task with the appropriate technical vocabulary. 
 
 ### Understand the Data
+Upon first inspection of the data, we can tell that there are 426880 rows of data, many of which are littered with null values. The data provides information about car prices based on the model, condition, type, size, color, and several more features. 
 
 ### Prepare the Data
+Some values were also unrealistic. These would be considered extreme outliers and must be removed. Null values must also be filled in with either correlative data or the most common option available. Some columns, such as ID, VIN, and region, may be dropped completely due to their unique value or due to its insignificance in a sale.
 
-### Interpret the Data 
+### Interpreting the Data 
